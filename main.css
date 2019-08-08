@@ -1,6 +1,6 @@
 
 .backgroundImage1 {
-    background: url(mountains.jpg) no-repeat center fixed;
+    background: url(Lyon_bridge.jpg) no-repeat center fixed;
     background-size: cover;
    }
    .backgroundImage2{
@@ -11,7 +11,10 @@
     background: url(hero-image.jpg) no-repeat center fixed;
     background-size: cover;
    }
-   
+   .backgroundImage4{
+    background: url(flight.png) no-repeat center fixed;
+    background-size: cover;
+   }
    body, html {
     height: 100%;
 }
@@ -30,6 +33,37 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Lyon_bridge.jpg");
+    height: 90%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+  .hero-text2 {
+    /* Positioning and sizing */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Padding and margins */
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 15px;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+    height: 200
   }
   .blend {
     mix-blend-mode: exclusion;
@@ -61,7 +95,7 @@
     text-align: center
    }
    p {
-       font-size: 15px;
+       font-size: 17px;
        font-family: 'arial', 'Times New Roman' 
    }
    .center {
